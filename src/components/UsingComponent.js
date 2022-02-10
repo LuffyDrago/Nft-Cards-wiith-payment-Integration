@@ -9,9 +9,9 @@ export default function App() {
     currency: "KES",
     payment_options: "mobilemoney,",
     customer: {
-      email: "user@gmail.com",
-      phonenumber: "07064586146",
-      name: "joel ugwumadu",
+      email: "rigelvicky@gmail.com",
+      phonenumber: "0710524910",
+      name: "Vicky",
     },
     customizations: {
       title: "My store",
