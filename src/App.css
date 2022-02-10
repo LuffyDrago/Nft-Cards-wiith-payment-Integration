@@ -5,21 +5,61 @@
 }
 
 body {
-    background: #fff;
+    background: linear-gradient(113.49deg, #984d38 -30.3%, #181e41 58.12%);
 }
 
-.container {
+.filter {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.filter:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    width: 22%;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: #a24bf8;
+}
+
+.wrappers {
+    display: flex;
+    max-width: 360px;
+}
+
+.cards {
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 21px 31px 39px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    background: #f1f1f1;
-    margin: 100px auto 0;
-    word-break: break-all;
-    /* border: 1px solid rgba(0, 0, 0, 0.274); */
 }
 
-.bloc-tabs {
+.rows {
+    flex-flow: wrap;
     display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.xcard {
+    display: flex;
+    flex-direction: row;
 }
 
 .tabs {
