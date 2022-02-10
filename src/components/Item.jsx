@@ -1,7 +1,7 @@
 import UsingHooks from "./UsingComponent";
 
 function Item({ data }) {
-  const k = process.env.REACT;
+  //   const  = process.env.REACT;
   return (
     <div className="rows">
       {data.map((value) => {
