@@ -1,9 +1,10 @@
 import React from "react";
 import { FlutterWaveButton, closePaymentModal } from "flutterwave-react-v3";
 
+// public_key: process.env.REACT_APP_API_KEY,
 export default function App() {
   const config = {
-    public_key: process.env.REACT_APP_API_KEY,
+    public_key: "FLWPUBK-194fe1416d195adc6960b8f088357064-X",
     tx_ref: Date.now(),
     amount: 100,
     currency: "KES",
@@ -31,7 +32,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <div className="Appz">
       <FlutterWaveButton {...fwConfig} />
     </div>
   );

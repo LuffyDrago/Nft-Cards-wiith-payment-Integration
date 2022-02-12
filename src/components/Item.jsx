@@ -16,9 +16,11 @@ function Item({ data }) {
                 style={{ height: "300px" }}
               />
               <h3>{title}</h3>
-              <p>{description}</p>
+              <p className="current">{description}</p>
               <h5>{price}</h5>
-              <UsingHooks />
+              <span className="bid">
+                <UsingHooks />
+              </span>
             </div>
           </div>
         );
