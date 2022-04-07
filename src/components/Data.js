@@ -72,4 +72,4 @@ const data = [
     category: "Pattern",
   },
 ];
-// export default data;
+export default data;
